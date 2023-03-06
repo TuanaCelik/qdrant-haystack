@@ -3,7 +3,7 @@
 An integration of [Qdrant](https://qdrant.tech) vector database with [Haystack](https://haystack.deepset.ai/)
 by [deepset](https://www.deepset.ai).
 
-The library finally allows using Qdrant as a document store, and provides an in-place replacement
+The library finally allows using Qdrant as a [`DocumentStore`](https://docs.haystack.deepset.ai/docs/document_store), and provides an in-place replacement
 for any other vector embeddings store. Thus, you should expect any kind of application to be working
 smoothly just by changing the provider to `QdrantDocumentStore`.
 
